@@ -1,0 +1,126 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;   
+    background-color: lightslategray;
+}
+
+.header {
+    height: 10vh;
+    background-color: lightslategray;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    align-content: center; 
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: sticky;
+    position: relative;
+    left: 35px;
+    bottom: 1.5px;
+}
+
+.material-icons.md-48 {
+    position: sticky;
+    right: 300px;
+    color: white;
+    font-size: 48px;
+    z-index: 5;
+    
+}
+
+.borger {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightslategray;
+    position: fixed;
+    top: 0vh;
+    left: -100%;   
+    transition: 0.3s;  
+    font-size: 180%;
+    
+    
+}
+
+.activate{
+    left: 0vw;
+    transition: 0.3s;
+}
+
+h2 {
+    position: relative;
+    top: 750px;
+    left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+ul {
+    position: fixed;
+    top: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    list-style: none;
+    position: relative;
+    right: 50px;
+}
+
+li {
+    margin: 40px;
+}
+
+.box1 {
+    height: 100vh;
+    background-color: lightslategray;
+    display: grid;
+    grid-template-rows: 50% 20% 30%;
+    grid-template-areas:
+    "box2 box2"
+    "box3 box3"
+    "box4 box5"
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.box4 {
+    grid-area: box4;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.box5 {
+    grid-area: box5;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid black;    
+}

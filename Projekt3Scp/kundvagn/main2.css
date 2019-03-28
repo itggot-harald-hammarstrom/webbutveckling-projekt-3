@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;   
+    background-color: lightslategray;
+}
+
+.header {
+    height: 10vh;
+    background-color: lightslategray;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    align-content: center; 
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: sticky;
+    position: relative;
+    left: 35px;
+    bottom: 1.5px;
+}
+
+.material-icons.md-48 {
+    position: sticky;
+    right: 300px;
+    color: white;
+    font-size: 48px;
+    z-index: 5;
+    
+}
+
+.borger {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightslategray;
+    position: fixed;
+    top: 0vh;
+    left: -100%;   
+    transition: 0.3s;  
+    font-size: 180%;
+    
+    
+}
+
+.activate{
+    left: 0vw;
+    transition: 0.3s;
+}
+
+h2 {
+    position: relative;
+    top: 750px;
+    left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+ul {
+    position: fixed;
+    top: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    list-style: none;
+    position: relative;
+    right: 50px;
+}
+
+li {
+    margin: 40px;
+}
+
+.box1{
+    margin: 20px;
+    height: 5vh;
+    background-color: lightslategray;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    color: white;
+    font-size: 30px;
+    position: relative;
+    
+}
+
+.box2{
+    margin: 20px;
+    background-color: white;
+    height: 629px;
+    border: 1.5px solid black;
+    display: grid;   
+    
+}
+
+.box3, .box5 {
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.box4, .box6{
+    background-color: lightgray;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    border: 1px solid black;
+
+}
+
+.box7{
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.minibox1, .minibox2 , .minibox3, .minibox4{
+    background-color: black;
+    height: 100%;
+    width: 30%;
+    /* margin: 5px; */
+    
+}
+

@@ -1,0 +1,175 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 140vh;   
+    background-color: lightslategray;
+}
+
+.header {
+    height: 10vh;
+    background-color: lightslategray;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    align-content: center; 
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: sticky;
+    position: relative;
+    left: 35px;
+    bottom: 1.5px;
+}
+
+.material-icons.md-48 {
+    position: sticky;
+    right: 300px;
+    color: white;
+    font-size: 48px;
+    z-index: 5;
+    
+}
+
+.borger {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightslategray;
+    position: fixed;
+    top: 0vh;
+    left: -100%;   
+    transition: 0.3s;  
+    font-size: 180%;
+    
+    
+}
+
+.activate{
+    left: 0vw;
+    transition: 0.3s;
+}
+
+h2 {
+    position: relative;
+    top: 750px;
+    left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+ul {
+    position: fixed;
+    top: 80px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    list-style: none;
+    position: relative;
+    right: 50px;
+}
+
+li {
+    margin: 40px;
+}
+
+.box1{
+    margin: 20px;
+    height: 5vh;
+    background-color: lightslategray;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    color: white;
+    font-size: 30px;
+    position: sticky;
+}
+    
+.box2 {
+    height: 960px;
+    background-color: lightslategray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "box1 box2"
+    "box3 box4"
+    "box5 box6"
+    "box7 box8";
+
+}
+
+.varubox1{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box1;
+    border: 1px solid black;
+}
+
+.varubox2{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box2;
+    border: 1px solid black;
+}
+
+.varubox3{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box3;
+    border: 1px solid black;
+}
+
+.varubox4{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box4;
+    border: 1px solid black;
+}
+
+.varubox5{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box5;
+    border: 1px solid black;
+}
+
+.varubox6{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box6;
+    border: 1px solid black;
+}
+
+.varubox7{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box7;
+    border: 1px solid black;
+}
+
+.varubox8{
+    margin: 20px;
+    background-color: white;
+    height: 200px;
+    grid-area: box8;
+    border: 1px solid black;
+}
