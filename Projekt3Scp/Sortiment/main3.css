@@ -47,7 +47,7 @@ h1 {
 .borger {
     height: 100vh;
     width: 100vw;
-    background-color: lightslategray;
+    background-color: rgb(94, 112, 129);
     position: fixed;
     top: 0vh;
     left: -100%;   
@@ -84,6 +84,19 @@ ul {
 
 li {
     margin: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.img1 { 
+    height: 250px;
+    width: 250px;
+    top: 25px;
+    position: relative;
+    left: 70px;
 }
 
 .box1{

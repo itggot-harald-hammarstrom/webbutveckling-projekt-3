@@ -47,7 +47,7 @@ h1 {
 .borger {
     height: 100vh;
     width: 100vw;
-    background-color: lightslategray;
+    background-color: rgb(94, 112, 129);
     position: fixed;
     top: 0vh;
     left: -100%;   
@@ -86,6 +86,19 @@ li {
     margin: 40px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.img1 { 
+    height: 250px;
+    width: 250px;
+    top: 25px;
+    position: relative;
+    left: 70px;
+}
+
 .box1{
     margin: 20px;
     height: 5vh;
@@ -104,36 +117,142 @@ li {
     height: 629px;
     border: 1.5px solid black;
     display: grid;   
+    grid-template-areas:
+    "box3"
+    "box4"
+    "box5"
+    "box6"
+    "box7";
+    grid-template-rows: 20% 20% 20% 20% 20%;
     
 }
 
-.box3, .box5 {
+.box3{
     background-color: white;
-    justify-content: center;
-    align-content: center;
     margin: 5px;
     border: 1px solid black;
+    grid-area: box3;
+    text-align: center;
 }
 
-.box4, .box6{
+.pris1{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.namn1{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.box4{
     background-color: lightgray;
-    justify-content: center;
-    align-content: center;
     margin: 5px;
     border: 1px solid black;
+    grid-area: box4;
+    text-align: center;
+}
 
+.pris2{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.namn2{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.box5 {
+    background-color: white;
+    margin: 5px;
+    border: 1px solid black;
+    grid-area: box5;
+    text-align: center;
+}
+.pris3{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.namn3{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.box6{
+    background-color: lightgray;
+    margin: 5px;
+    border: 1px solid black;
+    grid-area: box6;
+    text-align: center;
+}
+
+.pris4{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.namn4{
+    position: relative;
+    bottom: 100px;
+    font-size: 20px;
+    color: black;
 }
 
 .box7{
     margin: 5px;
+    grid-area: box7;   
+    display: grid;
+    grid-template-areas:
+    "total"
+    "footer";
+    grid-template-rows: 50% 50%;
+}
+
+footer{
+    height: 100%;
+    background-color: white;
+    grid-area: footer;
     border: 1px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 3px;
+}
+
+p {
+    position: relative;
+    bottom: 3px;
+}
+
+.total{
+    color: black;
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    grid-area: total;
 }
 
 .minibox1, .minibox2 , .minibox3, .minibox4{
     background-color: black;
     height: 100%;
     width: 30%;
-    /* margin: 5px; */
     
 }
 

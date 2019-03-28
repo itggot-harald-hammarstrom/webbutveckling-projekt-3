@@ -14,7 +14,7 @@ body {
     height: 10vh;
     background-color: lightslategray;
     display: flex;
-    z-index: 10;
+    z-index: 11;
     justify-content: center;
     align-content: center; 
     justify-items: center;
@@ -47,14 +47,13 @@ h1 {
 .borger {
     height: 100vh;
     width: 100vw;
-    background-color: lightslategray;
+    background-color: rgb(94, 112, 129);
     position: fixed;
     top: 0vh;
     left: -100%;   
     transition: 0.3s;  
     font-size: 180%;
-    
-    
+    z-index: 10;
 }
 
 .activate{
@@ -86,11 +85,24 @@ li {
     margin: 40px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.img1 { 
+    height: 250px;
+    width: 250px;
+    top: 25px;
+    position: relative;
+    left: 70px;
+}
+
 .box1 {
     height: 100vh;
     background-color: lightslategray;
     display: grid;
-    grid-template-rows: 50% 20% 30%;
+    grid-template-rows: 40% 30% 30%;
     grid-template-areas:
     "box2 box2"
     "box3 box3"
@@ -102,6 +114,43 @@ li {
     background-color: white;
     margin: 20px;
     border: 1px solid black;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    grid-template-areas: 
+    "överbox"
+    "footer";
+}
+
+.img2 {
+    position: relative;
+    bottom: 282px;
+    z-index: 0;
+}
+
+.överbox{
+    grid-area: överbox;
+    opacity: 0.1;
+    background-color: black;
+}
+
+footer{
+    background-color: black;    
+    grid-area: footer;
+    z-index: 2;
+    opacity: 0.8;  
+    font-size: 20px;
+    position: relative;
+    top:1px;
+    text-align: center;
+}
+
+.pfooter{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 13px;
+
 }
 
 .box3 {
@@ -109,6 +158,23 @@ li {
     background-color: white;
     margin: 20px;
     border: 1px solid black;
+
+}
+
+.info {
+    color: black;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.p1 {
+    font-size: 15px;
+    width: 100%;
 }
 
 .box4 {
