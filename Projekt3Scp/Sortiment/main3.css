@@ -111,7 +111,7 @@ a {
 }
     
 .box2 {
-    height: 960px;
+    height: 1000px;
     background-color: lightslategray;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -129,7 +129,18 @@ a {
     height: 200px;
     grid-area: box1;
     border: 1px solid black;
+    text-align: center;
+
 }
+
+.info{
+    font-size: 13px;
+    color: black;
+    position: relative;
+    left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 .varubox2{
     margin: 20px;
@@ -137,6 +148,7 @@ a {
     height: 200px;
     grid-area: box2;
     border: 1px solid black;
+    text-align: center;
 }
 
 .varubox3{
@@ -145,6 +157,7 @@ a {
     height: 200px;
     grid-area: box3;
     border: 1px solid black;
+    text-align: center;
 }
 
 .varubox4{
@@ -153,6 +166,7 @@ a {
     height: 200px;
     grid-area: box4;
     border: 1px solid black;
+    text-align: center;
 }
 
 .varubox5{
@@ -161,6 +175,7 @@ a {
     height: 200px;
     grid-area: box5;
     border: 1px solid black;
+    text-align: center;
 }
 
 .varubox6{
@@ -169,6 +184,7 @@ a {
     height: 200px;
     grid-area: box6;
     border: 1px solid black;
+    text-align: center;
 }
 
 .varubox7{
@@ -177,6 +193,7 @@ a {
     height: 200px;
     grid-area: box7;
     border: 1px solid black;
+    text-align: center;
 }
 
 .varubox8{
@@ -185,4 +202,5 @@ a {
     height: 200px;
     grid-area: box8;
     border: 1px solid black;
+    text-align: center;
 }

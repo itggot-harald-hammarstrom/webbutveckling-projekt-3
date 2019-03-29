@@ -1,8 +1,9 @@
 body {
-    height: 100vh;
+    height: 729px;
     width: 100vw;
     margin: 0;
     padding: 0;
+    background-color: lightslategray;
 }
 
 .wrapper {
@@ -29,7 +30,6 @@ h1 {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    position: sticky;
     position: relative;
     left: 35px;
     bottom: 1.5px;
@@ -222,6 +222,7 @@ a {
     "total"
     "footer";
     grid-template-rows: 50% 50%;
+    text-align: center;
 }
 
 footer{
@@ -245,8 +246,10 @@ p {
     color: black;
     position: relative;
     font-size: 20px;
-    left: 10px;
+    top: 4px;
+    left: 0px;
     grid-area: total;
+    /* margin: 0; */
 }
 
 .minibox1, .minibox2 , .minibox3, .minibox4{
